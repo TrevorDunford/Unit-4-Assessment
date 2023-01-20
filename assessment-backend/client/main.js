@@ -46,7 +46,7 @@ const getgoodnews = () => {
 
 goodnewsBtn.addEventListener('click', getgoodnews)
 
-const codingrocksBtn = document.getElementById("goodnewsButton")
+const codingrocksBtn = document.getElementById("codingrocksButton")
 
 const getcodingrocks = () => {
     axios.get("http://localhost:4002/api/codingrocks/")
